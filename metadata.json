@@ -1,0 +1,6 @@
+{
+  "name": "Ruvixon",
+  "description": "An immersive luxury couture digital flagship for Ruvixon, featuring Summer 2026 pre-orders, an AI-powered personal stylist, members-only collection previews, and private launch registries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-display: "Cinzel", serif;
+  
+  --color-gold-100: #FBFBFB;
+  --color-gold-200: #F2F2F2;
+  --color-gold-500: #111111;
+  --color-gold-600: #555555;
+  --color-bronze-800: #111111;
+  --color-sand-50: #FFFFFF;
+  --color-sand-100: #FBFBFB;
+  --color-sand-200: #EBEBEB;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-sand-50);
+  color: var(--color-bronze-800);
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar for high-end look */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-sand-100);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-bronze-800);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold-600);
+}
+
